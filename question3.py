@@ -13,6 +13,7 @@ y_fit = m * x + b
 
 plt.scatter(x, y, s=1, label="Edge Points")
 plt.plot(x, y_fit, color='red', linewidth=2, label="Least Squares Line")
+plt.gca().invert_yaxis()
 
 plt.xlabel("x")
 plt.ylabel("y")

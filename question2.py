@@ -12,6 +12,7 @@ x = indices[1]
 y = indices[0]
 
 plt.scatter(x,y,s=1)
+plt.gca().invert_yaxis()
 plt.title("Scatter Plot of Edge Points")
 plt.xlabel("x")
 plt.ylabel("y")
